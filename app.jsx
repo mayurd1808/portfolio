@@ -35,7 +35,7 @@ const USER_DATA = {
   tagline: "Building scalable backend architectures and intelligent user experiences.",
   summary: "Computer Science Engineering student specializing in Java ecosystems and Python-based AI models. I bridge the gap between complex backend logic and seamless frontend interactions.",
   email: "mayur.d1808@gmail.com",
-  linkedin: "https://www.linkedin.com/in/mayur-deshmukh",
+  linkedin: "https://www.linkedin.com/in/mayur-deshmukh-55080232a/",
   github: "https://github.com/",
 };
 
