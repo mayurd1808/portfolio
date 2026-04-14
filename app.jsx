@@ -256,7 +256,7 @@ export default function App() {
                    className="flex items-center gap-6 pt-8 text-slate-400"
                 >
                   <a href={USER_DATA.github} className="hover:text-indigo-600 transition-colors"><Github size={24}/></a>
-                  <a href={USER_DATA.linkedin} className="hover:text-indigo-600 transition-colors"><Linkedin size={24}/></a>
+                  <a href={"https://www.linkedin.com/in/mayur-deshmukh-55080232a/"} className="hover:text-indigo-600 transition-colors"><Linkedin size={24}/></a>
                   <a href={`mailto:${USER_DATA.email}`} className="hover:text-indigo-600 transition-colors"><Mail size={24}/></a>
                 </motion.div>
               </div>
