@@ -256,7 +256,7 @@ export default function App() {
                    className="flex items-center gap-6 pt-8 text-slate-400"
                 >
                   <a href={USER_DATA.github} className="hover:text-indigo-600 transition-colors"><Github size={24}/></a>
-                  <a href={"https://www.linkedin.com/in/mayur-deshmukh-55080232a/"} className="hover:text-indigo-600 transition-colors"><Linkedin size={24}/></a>
+                  <a href={USER_DATA.linkedin} className="hover:text-indigo-600 transition-colors"><Linkedin size={24}/></a>
                   <a href={`mailto:${USER_DATA.email}`} className="hover:text-indigo-600 transition-colors"><Mail size={24}/></a>
                 </motion.div>
               </div>
@@ -411,7 +411,7 @@ export default function App() {
                   <a href={`mailto:${USER_DATA.email}`} className="w-full sm:w-auto px-12 py-5 bg-white text-indigo-600 rounded-2xl font-black text-lg hover:scale-105 transition-transform shadow-2xl">
                     Say Hello
                   </a>
-                  <a href={"https://www.linkedin.com/in/mayur-deshmukh-55080232a/"} className="w-full sm:w-auto px-12 py-5 bg-indigo-500 text-white border-2 border-indigo-400 rounded-2xl font-black text-lg hover:bg-indigo-400 transition-colors">
+                  <a href={USER_DATA.linkedin} className="w-full sm:w-auto px-12 py-5 bg-indigo-500 text-white border-2 border-indigo-400 rounded-2xl font-black text-lg hover:bg-indigo-400 transition-colors">
                     LinkedIn
                   </a>
                 </div>
@@ -434,7 +434,7 @@ export default function App() {
             </div>
             <div className="flex gap-4">
                <a href={USER_DATA.github} className="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"><Github size={18}/></a>
-               <a href={"https://www.linkedin.com/in/mayur-deshmukh-55080232a/"} className="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"><Linkedin size={18}/></a>
+               <a href={USER_DATA.linkedin} className="p-2 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"><Linkedin size={18}/></a>
             </div>
           </div>
         </footer>
